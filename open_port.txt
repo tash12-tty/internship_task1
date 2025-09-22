@@ -1,0 +1,16 @@
+Nmap scan report for unit (192.168.*.*)
+
+PORT      STATE  SERVICE        VERSION
+22/tcp    closed ssh
+443/tcp   open   ssl/tcpwrapped
+
+Nmap scan report for 192.168.*.*
+
+PORT     STATE SERVICE         VERSION
+135/tcp  open  msrpc           Microsoft Windows RPC
+139/tcp  open  netbios-ssn     Microsoft Windows netbios-ssn
+445/tcp  open  microsoft-ds?
+902/tcp  open  ssl/vmware-auth VMware Authentication Daemon 1.10 (Uses VNC, SOAP)
+912/tcp  open  vmware-auth     VMware Authentication Daemon 1.0 (Uses VNC, SOAP)
+3306/tcp open  mysql           MySQL (unauthorized)
+7070/tcp open  ssl/realserver?
